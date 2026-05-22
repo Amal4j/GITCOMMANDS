@@ -1,0 +1,63 @@
+git add filename or git add . ( make file ready for stage)
+
+
+git commit -m "type message" ( file ko repo mein lejayega) 
+
+git config --global core.editior "code --wait"
+
+(agar aap commit mein message bhool gaye to 
+aapko poochega and editor will be text)
+
+.gitignore ( is file mein woh files ka nam likho jisko tracking nahi karn ho)
+
+git remote add origin   ( remote reop ka address do )
+
+git remote remove origin  ( vscode se repo ka connectivity band kar dega ) 
+
+git remote -v ( repo detail show karega )  
+
+git rm -r --cached .terraform  ( agar ye file track ho rahi hogi to iski tracking remove karega)
+
+git push -u origin test  ( test branch ka naam hai )
+
+git log --oneline  ( log dekhne ko )
+
+-----------------------------------
+
+Git Behind Commands
+
+Porslin and Gardening 
+
+header humesha main branch ko focus karta hai
+--------------------------------
+
+git switch -c amal  ( amal naam ka branch ban jayega and amal naam ke branch mein shift karega )
+
+git checkout master  ( switch karega master branch mein )
+
+git branch
+
+git merge amal ( merge amal to existing branch)
+
+get merge --abort ( jo merge kara hai usko abort karega )
+
+
+
+
+
+
+
+
+
+
+
+
+step for pushing code in GITHUB
+
+phele code mein change karo
+
+git add filename 
+
+git commit -m "message"
+
+git push -u origin test ( test is branch name )
