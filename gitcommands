@@ -1,3 +1,8 @@
+git config --global user.name "Amal"
+git config --global user.email "yourmail@example.com"
+git config --global --list
+
+
 git add filename or git add . ( make file ready for stage)
 
 
@@ -36,6 +41,9 @@ git switch -c amal  ( amal naam ka branch ban jayega and amal naam ke branch mei
 git checkout master  ( switch karega master branch mein )
 
 git branch
+
+git branch -m amal amaljeet (amal branch name change karke amaljeet bana dega)
+git branch -d amaljeet ( delete branch amaljeet)
 
 git merge amal ( merge amal to existing branch)
 
