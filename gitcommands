@@ -31,7 +31,7 @@ git switch -c amal  ( amal naam ka branch ban jayega and amal naam ke branch mei
 git checkout master  ( switch karega master branch mein )
 git branch
 git branch -m amal amaljeet (amal branch name change karke amaljeet bana dega)
-git branch -d amaljeet ( delete branch amaljeet)
+git branch -D amaljeet ( delete branch amaljeet)
 
 git merge amal ( merge amal to existing branch)
 get merge --abort ( jo merge kara hai usko abort karega )
