@@ -41,6 +41,8 @@ git pop stash
 
 git diff --staged
 
+git rebase origin/main
+
 
 
 
